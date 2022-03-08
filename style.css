@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    gap: 2rem;
+    padding-top: 78px;
+    background-color: rgb(219, 139, 139);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+.guess-n {
+    text-align: center;
+    color: red;
+    margin-top: 1rem;
+    background-color: black;
+    padding: 0.7rem 1.5rem;
+    color: wheat;
+}
+.guessed-no {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto ;
+    margin-top: 8rem;
+    
+
+}
+#guessed-no-area {
+    outline: 2px solid black;
+    width: 6rem;
+    padding: 1rem ;
+    font-size: 2rem;
+}
+#correct {
+    color: black;
+}
+#check {
+    margin-top: 20px;
+    margin-left: 13px;
+    padding: 0.5rem 1rem;
+}
+.score-area {
+    margin: 0;
+    padding: 0;
+}
+#score {
+    margin-bottom: 1rem;
+}
+article {
+    display: flex;
+    justify-content: space-around;
+
+}
+#tryagain {
+    background-color: black;
+    color: aliceblue;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+}
+#highScore {
+    background-color: black;
+    color: aliceblue;
+    padding: 0.7rem 2rem;
+}
